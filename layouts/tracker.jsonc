@@ -47,6 +47,17 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "World Map",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "world_map"
+                ]
+              }
+            },
+            {
               "title": "The Crash Site",
               "v_alignment": "stretch",
               "h_alignment": "stretch",

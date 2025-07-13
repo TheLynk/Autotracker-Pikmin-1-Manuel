@@ -1,0 +1,23 @@
+[
+  {
+    "name": "World Map",
+    "children": [
+      {
+        "name": "World Map | Crash Site",
+        "sections": [
+          {
+            "ref": "Crash Site/Spawn/Crash on PNF-404/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 560,
+            "y": 500,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

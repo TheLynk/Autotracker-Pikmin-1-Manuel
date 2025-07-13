@@ -1,6 +1,12 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
+    "name": "world_map",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/world_map.png"
+  },
+  {
     "name": "crash_site",
     "location_size": 48,
     "location_border_thickness": 4,
