@@ -1,0 +1,33 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "crash_site",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/crash_site.png"
+  },
+  {
+    "name": "forest_of_hope",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/forest_of_hope.png"
+  },
+  {
+    "name": "forest_navel",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/forest_navel.png"
+  },
+  {
+    "name": "distant_spring",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/distant_spring.png"
+  },
+  {
+    "name": "final_trial",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/final_trial.png"
+  }
+]

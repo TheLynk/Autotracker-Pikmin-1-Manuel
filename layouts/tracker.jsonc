@@ -1,0 +1,108 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Pikmin",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Pikmin"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Items"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Areas Accessible",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "areas_accessible"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "The Crash Site",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "crash_site"
+                ]
+              }
+            },
+            {
+              "title": "The Forest of Hope",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forest_of_hope"
+                ]
+              }
+            },
+            {
+              "title": "The Forest Navel",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forest_navel"
+                ]
+              }
+            },
+            {
+              "title": "The Distant Spring",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "distant_spring"
+                ]
+              }
+            },
+            {
+              "title": "The Final Trial",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "final_trial"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

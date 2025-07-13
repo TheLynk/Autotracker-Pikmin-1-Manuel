@@ -1,0 +1,19 @@
+{
+  "name": "Pikmin 1 Manuel",
+  "game_name": "Manual_Pikmin_TheLynk",
+  "package_version": "0.0.1",
+  "package_uid": "Pikmin_1_manuel_TheLynk_poptracker",
+  "platform": "Game Cube",
+  "author": "TheLynk",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.31.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  },
+  "versions_url": ""
+}

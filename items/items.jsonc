@@ -1,0 +1,73 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+
+  //////   Areas Accesible  //////
+
+  {
+    "name": "Crash Site revisit",
+    "type": "toggle",
+    "codes": "crash_site_revisit",
+    "img": "images/maps/crash_site.png"
+  },
+  {
+    "name": "The Forest Of Hope",
+    "type": "toggle",
+    "codes": "forest_of_hope",
+    "img": "images/maps/forest_of_hope.png"
+  },
+  {
+    "name": "The Forest Navel",
+    "type": "toggle",
+    "codes": "forest_navel",
+    "img": "images/maps/forest_navel.png"
+  },
+  {
+    "name": "The Distant Spring",
+    "type": "toggle",
+    "codes": "distant_spring",
+    "img": "images/maps/distant_spring.png"
+  },
+  {
+    "name": "The Final Trial",
+    "type": "toggle",
+    "codes": "final_trial",
+    "img": "images/maps/final_trial.png"
+  },
+
+
+  //////  Pikmin   //////
+
+  {
+    "name": "Yellow Pikmin",
+    "type": "toggle",
+    "codes": "yellow_pikmin",
+    "img": "images/pikmin/yellow_pikmin.png"
+  },
+  {
+    "name": "Blue Pikmin",
+    "type": "toggle",
+    "codes": "blue_pikmin",
+    "img": "images/pikmin/blue_pikmin.png"
+  },
+
+  //////  Items   //////
+
+  {
+    "name": "Ship Part",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 30,
+    "overlay_font_size": 18,
+    "img": "images/items/ship_part.png",
+    "codes": "ship_part"
+  },
+  {
+    "name": "Pikpik Carrot",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 88,
+    "overlay_font_size": 18,
+    "img": "images/items/pikpik_carrot.png",
+    "codes": "pikpik_carrot"
+  }
+]

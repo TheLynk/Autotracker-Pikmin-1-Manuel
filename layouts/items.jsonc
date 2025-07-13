@@ -1,0 +1,46 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "Pikmin": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "10,0",
+    "item_size": 50,
+    "rows": [
+      [
+        "yellow_pikmin",
+        "blue_pikmin"
+      ]
+    ]
+  },
+  "Items": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "12,0",
+    "item_size": 50,
+    "rows": [
+      [
+        "ship_part",
+        "pikpik_carrot"
+      ]
+    ]
+  },
+  "areas_accessible": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "0,0,0,0",
+    "item_margin": "12,0",
+    "item_size": 50,
+    "rows": [
+      [
+        "crash_site_revisit",
+        "forest_of_hope",
+        "forest_navel",
+        "distant_spring",
+        "final_trial"
+      ]
+    ]
+  }
+}

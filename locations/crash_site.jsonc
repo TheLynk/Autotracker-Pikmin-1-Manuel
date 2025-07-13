@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Crash Site",
+    "children": [
+      {
+        "name": "Spawn",
+        "sections": [
+          {
+            "name": "Crash on PNF-404",
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tutorial Complete! (Sunset)",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Re Explore",
+            "access_rules": [
+              "crash_site_revisit"
+            ],
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "100%",
+            "access_rules": [
+              "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 560,
+            "y": 500,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Onion",
+        "sections": [
+          {
+            "name": "Discover the Red Onion",
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 415,
+            "y": 350,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Box",
+        "sections": [
+          {
+            "name": "Push the Box",
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 450,
+            "y": 300,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Ship Part 1",
+        "sections": [
+          {
+            "name": "Main Engine",
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 515,
+            "y": 225,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Ship Part 2",
+        "sections": [
+          {
+            "name": "Positron Generator",
+            "access_rules": [
+              "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
+            ],
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 150,
+            "y": 300,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Wall 1",
+        "sections": [
+          {
+            "name": "Blast White Wall",
+            "access_rules": [
+              "yellow_pikmin, crash_site_revisit, forest_of_hope"
+            ],
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 250,
+            "y": 230,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Wall 2",
+        "sections": [
+          {
+            "name": "Break White Wall",
+            "access_rules": [
+              "yellow_pikmin, crash_site_revisit, forest_of_hope"
+            ],
+            "chest_unopened_img": "images/items/ship_part.png",
+            "chest_opened_img": "images/items/ship_part_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crash_site",
+            "x": 300,
+            "y": 340,
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]
