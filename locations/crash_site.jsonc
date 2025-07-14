@@ -7,8 +7,8 @@
         "sections": [
           {
             "name": "Crash on PNF-404",
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "chest_unopened_img": "images/minor checks/ss_dolphin_crash.png",
+            "chest_opened_img": "images/minor checks/ss_dolphin_crash_gray.png",
             "item_count": 1
           },
           {
@@ -22,8 +22,8 @@
             "access_rules": [
               "crash_site_revisit"
             ],
-            "chest_unopened_img": "images/minor checks/walk.png",
-            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "chest_unopened_img": "images/minor checks/visit.png",
+            "chest_opened_img": "images/minor checks/visit_gray.png",
             "item_count": 1
           },
           {
@@ -31,8 +31,8 @@
             "access_rules": [
               "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
             ],
-            "chest_unopened_img": "images/minor checks/walk.png",
-            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "chest_unopened_img": "images/minor checks/area_100.png",
+            "chest_opened_img": "images/minor checks/area_100_gray.png",
             "item_count": 1
           }
         ],
@@ -84,12 +84,12 @@
         ]
       },
       {
-        "name": "Ship Part 1",
+        "name": "Main Engine",
         "sections": [
           {
-            "name": "Main Engine",
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "name": "Ship Part",
+            "chest_unopened_img": "images/minor checks/main_engine.png",
+            "chest_opened_img": "images/minor checks/main_engine_gray.png",
             "item_count": 1
           }
         ],
@@ -98,20 +98,21 @@
             "map": "crash_site",
             "x": 515,
             "y": 225,
-            "size": 14
+            "size": 14/*,
+            "shape": "trapezoid"*/
           }
         ]
       },
       {
-        "name": "Ship Part 2",
+        "name": "Positron Generator",
         "sections": [
           {
-            "name": "Positron Generator",
+            "name": "Ship Part",
             "access_rules": [
               "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
             ],
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "chest_unopened_img": "images/minor checks/positron_generator.png",
+            "chest_opened_img": "images/minor checks/positron_generator_gray.png",
             "item_count": 1
           }
         ],
@@ -125,15 +126,15 @@
         ]
       },
       {
-        "name": "Wall 1",
+        "name": "Blast White Wall",
         "sections": [
           {
-            "name": "Blast White Wall",
+            "name": "Wall",
             "access_rules": [
               "yellow_pikmin, crash_site_revisit, forest_of_hope"
             ],
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
             "item_count": 1
           }
         ],
@@ -147,15 +148,15 @@
         ]
       },
       {
-        "name": "Wall 2",
+        "name": "Break White Wall",
         "sections": [
           {
-            "name": "Break White Wall",
+            "name": "Wall",
             "access_rules": [
               "yellow_pikmin, crash_site_revisit, forest_of_hope"
             ],
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "chest_unopened_img": "images/minor checks/break_white_wall.png",
+            "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
             "item_count": 1
           }
         ],

@@ -9,31 +9,35 @@
             "ref": "Crash Site/Spawn/Crash on PNF-404"
           },
           {
-            "ref": "Crash Site/Spawn/Tutorial Complete! (Sunset)",
+            "ref": "Re Explore"
           },
           {
-            "ref": "Re Explore",
+            "ref": "Crash Site/Onion/Discover the Red Onion"
           },
           {
-            "ref": "Crash Site/Onion/Discover the Red Onion",
+            "ref": "Crash Site/Box/Push the Box"
           },
           {
-            "ref": "Crash Site/Box/Push the Box",
+            "ref": "Crash Site/Main Engine/Ship Part",
+            "name": "Main Engine"
           },
           {
-            "ref": "Crash Site/Spawn/Crash on PNF-404",
+            "ref": "Crash Site/Spawn/Tutorial Complete! (Sunset)"
           },
           {
-            "ref": "Crash Site/Spawn/Crash on PNF-404",
+            "ref": "Crash Site/Positron Generator/Ship Part",
+            "name": "Positron Generator"
           },
           {
-            "ref": "Crash Site/Spawn/Crash on PNF-404",
+            "ref": "Crash Site/Blast White Wall/Wall",
+            "name": "Blast White Wall"
           },
           {
-            "ref": "Crash Site/Spawn/Crash on PNF-404",
+            "ref": "Crash Site/Break White Wall/Wall",
+            "name": "Break White Wall"
           },
           {
-            "ref": "100%",
+            "ref": "Crash Site/Spawn/100%"
           }
         ],
         "map_locations": [
