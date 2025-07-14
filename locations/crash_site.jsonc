@@ -13,8 +13,8 @@
           },
           {
             "name": "Tutorial Complete! (Sunset)",
-            "chest_unopened_img": "images/minor checks/walk.png",
-            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "chest_unopened_img": "images/minor checks/night.png",
+            "chest_opened_img": "images/minor checks/night_gray.png",
             "item_count": 1
           },
           {
@@ -50,8 +50,8 @@
         "sections": [
           {
             "name": "Discover the Red Onion",
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "chest_unopened_img": "images/minor checks/red_onion.png",
+            "chest_opened_img": "images/minor checks/red_onion_gray.png",
             "item_count": 1
           }
         ],
@@ -69,8 +69,8 @@
         "sections": [
           {
             "name": "Push the Box",
-            "chest_unopened_img": "images/items/ship_part.png",
-            "chest_opened_img": "images/items/ship_part_gray.png",
+            "chest_unopened_img": "images/minor checks/pushing_the_box.png",
+            "chest_opened_img": "images/minor checks/pushing_the_box_gray.png",
             "item_count": 1
           }
         ],

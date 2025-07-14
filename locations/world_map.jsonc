@@ -6,8 +6,34 @@
         "name": "World Map | Crash Site",
         "sections": [
           {
+            "ref": "Crash Site/Spawn/Crash on PNF-404"
+          },
+          {
+            "ref": "Crash Site/Spawn/Tutorial Complete! (Sunset)",
+          },
+          {
+            "ref": "Re Explore",
+          },
+          {
+            "ref": "Crash Site/Onion/Discover the Red Onion",
+          },
+          {
+            "ref": "Crash Site/Box/Push the Box",
+          },
+          {
             "ref": "Crash Site/Spawn/Crash on PNF-404",
-            "name": "Crash on PNF-404"
+          },
+          {
+            "ref": "Crash Site/Spawn/Crash on PNF-404",
+          },
+          {
+            "ref": "Crash Site/Spawn/Crash on PNF-404",
+          },
+          {
+            "ref": "Crash Site/Spawn/Crash on PNF-404",
+          },
+          {
+            "ref": "100%",
           }
         ],
         "map_locations": [

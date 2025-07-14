@@ -26,8 +26,12 @@ Tracker:AddItems("items/items.jsonc")
 Tracker:AddMaps("maps/maps.jsonc")
 
     -- Locations
-Tracker:AddLocations("locations/crash_site.jsonc")
 Tracker:AddLocations("locations/world_map.jsonc")
+Tracker:AddLocations("locations/crash_site.jsonc")
+Tracker:AddLocations("locations/forest_of_hope.jsonc")
+Tracker:AddLocations("locations/forest_navel.jsonc")
+Tracker:AddLocations("locations/distant_spring.jsonc")
+Tracker:AddLocations("locations/final_trial.jsonc")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
