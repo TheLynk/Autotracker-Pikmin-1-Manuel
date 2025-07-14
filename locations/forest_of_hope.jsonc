@@ -1,0 +1,27 @@
+[
+    {
+    "name": "The Forest of Hope",
+    "children": [
+      {
+        "name": "Spawn",
+        "sections": [
+          {
+            "name": "Explore",
+            "chest_unopened_img": "images/minor checks/visit.png",
+            "chest_opened_img": "images/minor checks/visit.png",
+            "item_count": 1
+          }
+        ]        ,
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 475,
+            "y": 700,
+            "size": 30,
+            "shape": "trapezoid"
+          }
+        ]
+      }
+    ]
+    }
+]

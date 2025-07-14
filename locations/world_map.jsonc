@@ -3,7 +3,7 @@
     "name": "World Map",
     "children": [
       {
-        "name": "World Map | Crash Site",
+        "name": "Crash Site",
         "sections": [
           {
             "ref": "Crash Site/Spawn/Crash on PNF-404"

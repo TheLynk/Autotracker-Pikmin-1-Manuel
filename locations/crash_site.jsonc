@@ -41,7 +41,8 @@
             "map": "crash_site",
             "x": 560,
             "y": 500,
-            "size": 20
+            "size": 20,
+            "shape": "trapezoid"
           }
         ]
       },
@@ -109,7 +110,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
+              "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"//, "^$skip_box_FoH"
             ],
             "chest_unopened_img": "images/minor checks/positron_generator.png",
             "chest_opened_img": "images/minor checks/positron_generator_gray.png",
