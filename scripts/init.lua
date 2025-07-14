@@ -27,6 +27,7 @@ Tracker:AddMaps("maps/maps.jsonc")
 
     -- Locations
 Tracker:AddLocations("locations/crash_site.jsonc")
+Tracker:AddLocations("locations/world_map.jsonc")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
