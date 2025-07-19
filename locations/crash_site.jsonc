@@ -27,7 +27,7 @@
             "item_count": 1
           },
           {
-            "name": "100%",
+            "name": "CS 100%",
             "access_rules": [
               "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
             ],
@@ -66,10 +66,10 @@
         ]
       },
       {
-        "name": "Box",
+        "name": "Push the Box",
         "sections": [
           {
-            "name": "Push the Box",
+            "name": "Box",
             "chest_unopened_img": "images/minor checks/pushing_the_box.png",
             "chest_opened_img": "images/minor checks/pushing_the_box_gray.png",
             "item_count": 1
@@ -99,8 +99,8 @@
             "map": "crash_site",
             "x": 515,
             "y": 225,
-            "size": 14/*,
-            "shape": "trapezoid"*/
+            "size": 20,
+            "shape": "diamond"
           }
         ]
       },
@@ -122,7 +122,8 @@
             "map": "crash_site",
             "x": 150,
             "y": 300,
-            "size": 14
+            "size": 20,
+            "shape": "diamond"
           }
         ]
       },

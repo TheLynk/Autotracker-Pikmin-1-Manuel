@@ -3,7 +3,7 @@
     "name": "World Map",
     "children": [
       {
-        "name": "Crash Site",
+        "name": "Crash Site | Spawn",
         "sections": [
           {
             "ref": "Crash Site/Spawn/Crash on PNF-404"
@@ -12,24 +12,54 @@
             "ref": "Re Explore"
           },
           {
-            "ref": "Crash Site/Onion/Discover the Red Onion"
-          },
-          {
-            "ref": "Crash Site/Box/Push the Box"
-          },
-          {
-            "ref": "Crash Site/Main Engine/Ship Part",
-            "name": "Main Engine"
-          },
-          {
             "ref": "Crash Site/Spawn/Tutorial Complete! (Sunset)"
           },
           {
             "ref": "Crash Site/Spawn/Re Explore"
           },
           {
+            "ref": "Crash Site/Spawn/CS 100%",
+            "name": "100%"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1600,
+            "y": 1600,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "Crash Site | Ship Part",
+        "sections": [
+          {
+            "ref": "Crash Site/Main Engine/Ship Part",
+            "name": "Main Engine"
+          },
+          {
             "ref": "Crash Site/Positron Generator/Ship Part",
             "name": "Positron Generator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1670,
+            "y": 1600,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "Crash Site | Other",
+        "sections": [
+          {
+            "ref": "Crash Site/Onion/Discover the Red Onion"
+          },
+          {
+            "ref": "Crash Site/Box/Push the Box"
           },
           {
             "ref": "Crash Site/Blast White Wall/Wall",
@@ -38,16 +68,143 @@
           {
             "ref": "Crash Site/Break White Wall/Wall",
             "name": "Break White Wall"
-          },
-          {
-            "ref": "Crash Site/Spawn/100%"
           }
         ],
         "map_locations": [
           {
             "map": "world_map",
             "x": 1600,
-            "y": 1600,
+            "y": 1670,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Forest Of Hope | Spawn",
+        "sections": [
+          {
+            "ref": "The Forest of Hope/Spawn/FoH Exploration",
+            "name": "Exploration"
+          },
+          {
+            "ref": "The Forest of Hope/Spawn/FoH 100%",
+            "name": "100%"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 400,
+            "y": 1400,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Forest Of Hope | Ship Part",
+        "sections": [
+          {
+            "ref": "The Forest of Hope/Eternal Fuel Dynamo/Ship Part",
+            "name": "Eternal Fuel Dynamo"
+          },
+          {
+            "ref": "The Forest of Hope/Extraordinary Bolt/Ship Part",
+            "name": "Extraordinary Bolt"
+          },
+          {
+            "ref": "The Forest of Hope/Geiger Counter/Ship Part",
+            "name": "Geiger Counter"
+          },
+          {
+            "ref": "The Forest of Hope/Nova Blaster/Ship Part",
+            "name": "Nova Blaster"
+          },
+          {
+            "ref": "The Forest of Hope/Radiation Canopy/Ship Part",
+            "name": "Radiation Canopy"
+          },
+          {
+            "ref": "The Forest of Hope/Sagittarius/Ship Part",
+            "name": "Sagittarius"
+          },
+          {
+            "ref": "The Forest of Hope/Shock Absorber/Ship Part",
+            "name": "Shock Absorber"
+          },
+          {
+            "ref": "The Forest of Hope/Whimsical Radar/Ship Part",
+            "name": "Whimsical Radar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 470,
+            "y": 1400,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Forest Of Hope | Other",
+        "sections": [
+          {
+            "ref": "The Forest of Hope/Onion/Discover the Yellow Onion"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Break white wall near spawn/Wall",
+            "name": "Break white wall near spawn"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Blast white wall near spawn/Wall",
+            "name": "Blast white wall near spawn"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Build bridge land to water/Bridge",
+            "name": "Build bridge land to water"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Build bridge water to land/Bridge",
+            "name": "Build bridge water to land"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Blast white wall near yellow onion/Wall",
+            "name": "Blast white wall near yellow onion"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Blast white wall near Geiger Counter/Wall",
+            "name": "Blast white wall near Geiger Counter"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Break white wall near yellow onion/Wall",
+            "name": "Break white wall near yellow onion"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Blast black wall near Extraordinary Bolt/Wall",
+            "name": "Blast black wall near Extraordinary Bolt"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Break black wall near 20 yellow palet/Wall",
+            "name": "Break black wall near 20 yellow palet"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Break white wall in water/Wall",
+            "name": "Break white wall in water"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Break black wall near Radiation Canopy/Wall",
+            "name": "Break black wall near Radiation Canopy"
+          },
+          {
+            "ref": "The Forest of Hope/FoH Push the Box near Geiger Counter/Box",
+            "name": "Push the Box near Geiger Counter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 400,
+            "y": 1470,
             "size": 60
           }
         ]

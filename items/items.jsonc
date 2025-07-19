@@ -56,10 +56,19 @@
     "name": "Ship Part",
     "type": "consumable",
     "initial_quantity": 0,
-    "max_quantity": 30,
+    "max_quantity": 25,
     "overlay_font_size": 18,
     "img": "images/items/ship_part.png",
     "codes": "ship_part"
+  },
+  {
+    "name": "Ship Part Optional",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 5,
+    "overlay_font_size": 18,
+    "img": "images/items/ship_part.png",
+    "codes": "ship_part_optional"
   },
   {
     "name": "Pikpik Carrot",
@@ -69,5 +78,14 @@
     "overlay_font_size": 18,
     "img": "images/items/pikpik_carrot.png",
     "codes": "pikpik_carrot"
+  },
+
+  //////  Option   //////
+
+  {
+    "name": "Louie Option",
+    "type": "toggle",
+    "codes": "louie_option",
+    "img": "images/louie_option.png"
   }
 ]

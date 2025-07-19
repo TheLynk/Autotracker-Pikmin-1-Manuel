@@ -23,6 +23,7 @@
     "rows": [
       [
         "ship_part",
+        "ship_part_optional",
         "pikpik_carrot"
       ]
     ]

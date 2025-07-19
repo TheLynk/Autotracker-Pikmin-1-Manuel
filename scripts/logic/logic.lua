@@ -18,10 +18,6 @@ function hasnot(item)
     end
 end
 
-function skip_box_FoH()
-    if has("final_trial") then
-        return AccessibilityLevel.SequenceBreak
-    else
-        return false
-    end
+function SB()
+    return AccessibilityLevel.SequenceBreak
 end

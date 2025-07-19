@@ -36,6 +36,7 @@ Tracker:AddLocations("locations/final_trial.jsonc")
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
+Tracker:AddLayouts("layouts/option.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

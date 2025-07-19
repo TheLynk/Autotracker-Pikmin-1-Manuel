@@ -6,12 +6,24 @@
         "name": "Spawn",
         "sections": [
           {
-            "name": "Explore",
+            "name": "FoH Exploration",
+            "access_rules": [
+              "forest_of_hope"
+            ],
             "chest_unopened_img": "images/minor checks/visit.png",
-            "chest_opened_img": "images/minor checks/visit.png",
+            "chest_opened_img": "images/minor checks/visit_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "FoH 100%",
+            "access_rules": [
+            "yellow_pikmin, blue_pikmin, forest_of_hope, forest_navel", "louie_option, forest_of_hope, yellow_pikmin, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/area_100.png",
+            "chest_opened_img": "images/minor checks/area_100_gray.png",
             "item_count": 1
           }
-        ]        ,
+        ],
         "map_locations": [
           {
             "map": "forest_of_hope",
@@ -19,6 +31,476 @@
             "y": 700,
             "size": 30,
             "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Onion",
+        "sections": [
+          {
+            "name": "Discover the Yellow Onion",
+            "access_rules": [
+              "forest_of_hope"
+            ],
+            "chest_unopened_img": "images/minor checks/yellow_onion.png",
+            "chest_opened_img": "images/minor checks/yellow_onion_gray.png",
+            "item_count": 1
+          }
+        ]        ,
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 160,
+            "y": 720,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Eternal Fuel Dynamo",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope"
+            ],
+            "chest_unopened_img": "images/minor checks/eternal_fuel_dynamo.png",
+            "chest_opened_img": "images/minor checks/eternal_fuel_dynamo_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 450,
+            "y": 950,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Extraordinary Bolt",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/extraordinary_bolt.png",
+            "chest_opened_img": "images/minor checks/extraordinary_bolt_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 200,
+            "y": 420,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Geiger Counter",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, , yellow_pikmin, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/geiger_counter.png",
+            "chest_opened_img": "images/minor checks/geiger_counter_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 400,
+            "y": 1030,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Nova Blaster",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/nova_blaster.png",
+            "chest_opened_img": "images/minor checks/nova_blaster_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 700,
+            "y": 480,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Radiation Canopy",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, louie_option, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/radiation_canopy.png",
+            "chest_opened_img": "images/minor checks/radiation_canopy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 640,
+            "y": 235,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Sagittarius",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope, forest_navel, blue_pikmin", "forest_of_hope, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/sagittarius.png",
+            "chest_opened_img": "images/minor checks/sagittarius_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 600,
+            "y": 1150,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Shock Absorber",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope"
+            ],
+            "chest_unopened_img": "images/minor checks/shock_absorber.png",
+            "chest_opened_img": "images/minor checks/shock_absorber_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 740,
+            "y": 580,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Whimsical Radar",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/whimsical_radar.png",
+            "chest_opened_img": "images/minor checks/whimsical_radar_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 170,
+            "y": 560,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "FoH Break white wall near spawn",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope"
+            ],
+            "chest_unopened_img": "images/minor checks/break_white_wall.png",
+            "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 545,
+            "y": 770,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Blast white wall near spawn",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 415,
+            "y": 650,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Build bridge land to water",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_of_hope"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 675,
+            "y": 940,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Build bridge water to land",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_of_hope, forest_navel, blue_pikmin", "forest_of_hope, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 675,
+            "y": 1050,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Blast white wall near yellow onion",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 210,
+            "y": 650,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Blast white wall near Geiger Counter",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 225,
+            "y": 900,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Break white wall near yellow onion",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope"
+            ],
+            "chest_unopened_img": "images/minor checks/break_white_wall.png",
+            "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 300,
+            "y": 783,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Blast black wall near Extraordinary Bolt",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_black_wall.png",
+            "chest_opened_img": "images/minor checks/blast_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 190,
+            "y": 475,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Break black wall near 20 yellow palet",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin", "forest_of_hope, louie_option, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/break_black_wall.png",
+            "chest_opened_img": "images/minor checks/break_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 425,
+            "y": 488,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Break white wall in water",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, louie_option, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/break_white_wall.png",
+            "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 505,
+            "y": 420,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Break black wall near Radiation Canopy",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, louie_option, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/break_black_wall.png",
+            "chest_opened_img": "images/minor checks/break_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 450,
+            "y": 330,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FoH Push the Box near Geiger Counter",
+        "sections": [
+          {
+            "name": "Box",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, , yellow_pikmin, ^$SB"
+            ],
+            "chest_unopened_img": "images/minor checks/pushing_the_box.png",
+            "chest_opened_img": "images/minor checks/pushing_the_box_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_hope",
+            "x": 250,
+            "y": 1120,
+            "size": 20
           }
         ]
       }

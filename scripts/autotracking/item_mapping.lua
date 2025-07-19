@@ -7,5 +7,6 @@ ITEM_MAPPING = {
     [6] = { {"forest_navel", "toggle"} },
     [7] = { {"distant_spring", "toggle"} },
     [8] = { {"final_trial", "toggle"} },
-    [9] = { {"pikpik_carrot", "consumable"} }
+    [9] = { {"ship_part_optional", "consumable"} },
+    [10] = { {"pikpik_carrot", "consumable"} }
 }
